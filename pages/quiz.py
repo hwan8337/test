@@ -13,12 +13,12 @@ st.write("Q3 다음중 반도체 공정 장비가 아닌것은?")
 answer3 = st.radio("보기중 정답을 고르시오", ["퍼니스", "스테퍼", "스크러버", "스핀 코터", "튀져"], key="q3")
 
 st.write("Q4 HMDS의 역할로 옳은 것을 고르시오")
-answer4 = st.radio("보기중 정답을 고르시오", ["웨이퍼를 보호하기 위해", "소수성으로 변환하기 위해", "점도를 약화시키기 위해", "PR을 잘 벗겨내기 위해", "PR코팅이 잘 되게 만들기 위해"], key="q4")
+answer4 = st.radio("보기중 정답을 고르시오", ["웨이퍼를 보호하기 위해", "웨이퍼 표면을 친수성으로 변환하기 위해", "점도를 약화시키기 위해", "PR을 잘 벗겨내기 위해", "PR코팅이 잘 되게 만들기 위해"], key="q4")
 
 st.write("Q5 pitch를 줄이는 방법이 아닌것을 고르시오?")
 answer5 = st.radio("보기중 정답을 고르시오", ["파장을 줄인다", "pr의 두께를 줄인다", "cos세타를 키운다", "굴절률을 키운다", "웨이퍼를 물에 담군다"], key="q5")
 # 정답과 점수 계산
-correct_answers = ["si추출", "ETCHING", "튀져", "소수성으로 변환하기 위해", "cos세타를 키운다"]
+correct_answers = ["si추출", "ETCHING", "튀져", "PR코팅이 잘 되게 만들기 위해", "cos세타를 키운다"]
 user_answers = [answer1, answer2, answer3, answer4, answer5]
 score = 0
 
